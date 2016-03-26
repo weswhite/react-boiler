@@ -1,0 +1,8 @@
+//tells babel what preset packages to use when transpiling
+
+{
+  "presets": [
+    "es2015",
+    "react"
+  ]
+}
