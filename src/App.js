@@ -3,20 +3,10 @@
 //This will create a SPA
 
 import React from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router';
-
-const Home = () => <div><h1>Home</h1><Links /></div>;
-const About = () => <div><h1>About</h1><Links /></div>;
-const Contact = () => <div><h1>Contact</h1><Links /></div>;
-const Links = () => {
-  return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="about">About</Link>
-      <Link to="contact">Contact</Link>
-    </nav>
-  )
-};
+import { Router, Route, browserHistory } from 'react-router';
+import Home from './components/common/Home';
+import About from './components/common/About';
+import Contact from './components/common/Contact';
 
 const App = () => {
   return (
